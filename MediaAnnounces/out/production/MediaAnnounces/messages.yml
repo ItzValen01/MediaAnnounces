@@ -1,0 +1,45 @@
+Messages:
+  no_permissions: "&cYou do not have enough permissions!"
+  cooldown: "&cYou have to wait &e%cooldown_media% &cbefore you can use a media command again."
+  reload_config: "&cMedia&5Announces &7» &eThe configuration files were reloaded correctly."
+CorrectUsages:
+  media: "&cUse &7/media"
+  reload: "&cUse &7/mediareload"
+  cooldownreset: "&cUse &7/creset <player>"
+Media:
+  recording_help:
+    - "&cRecord Notify"
+    - "&eSend the link to your video or type 'cancel' to cancel."
+    - "&eFor recording notifications only links from the following platforms are available:"
+    - "&cYou&fTube"
+  stream_help:
+    - "&5Stream notify"
+    - "&eSend your direct link or type 'cancel' to cancel."
+    - "&eFor stream notifications only links from the following platforms are available:"
+    - "&cYou&fTube"
+    - "&5Twitch"
+  recording_notify:
+    - "&c&m----------------------------------------"
+    - ""
+    - "&c%player% &ehas published a new video!"
+    - "&eLink: &f%recording_link%"
+    - ""
+    - "&c&m----------------------------------------"
+  stream_notify:
+    - "&5&m----------------------------------------"
+    - ""
+    - "&5%player% &eis now live!"
+    - "&eLink: &f%stream_link%"
+    - ""
+    - "&5&m----------------------------------------"
+  invalid_plataform: "&cSend a link to the corresponding platform!"
+  send_canceled: "&cYou have cancelled the sending of the media link."
+CooldownReset:
+  no_cooldown: "&cThe &5%player% &cplayer has no cooldown."
+  reseted: "&5%player% &acooldown has been reset."
+MediaChat:
+  activated: "&eYour media chat has been &aactivated&e."
+  desactivated: "&eYour media chat has been &cdesactivated&e."
+PartnerChat:
+  activated: "&eYour partner chat has been &aactivated&e."
+  desactivated: "&eYour partner chat has been &cdesactivated&e."

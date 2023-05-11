@@ -1,0 +1,13 @@
+Config:
+  cooldown_time: 300 #In seconds (300 seconds = 5 mins)
+  MediaChat:
+    enable: true
+    format: "&7(&cMedia&5Chat&7) &c%player% &7» &f%message%"
+  PartnerChat:
+    enable: true
+    format: "&7(&dPartners&7) &d%player% &7» &f%message%"
+Variables:
+  Chat:
+    Global: "&3&lGlobal"
+    Media: "&c&lMedia"
+    Partner: "&d&lPartner"

@@ -1,0 +1,15 @@
+SelectMedia:
+  name: "&7Select"
+  Items:
+    recording:
+      name: "&cRecording"
+      material: WOOL
+      value: 14
+    stream:
+      name: "&5Streams"
+      material: WOOL
+      value: 10
+    chat:
+      name: "&eChat: %mediaannounces_chat%"
+      material: PAPER
+      value: 0

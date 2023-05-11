@@ -1,0 +1,17 @@
+main: mediaannounces.itzvalen01.Main
+version: 4.0
+name: MediaAnnounces
+
+commands:
+  media:
+    description: Open media menu
+  mediareload:
+    description: Reload configuration files.
+  cooldownreset:
+    description: Reset cooldown media command.
+    aliases:
+      - creset
+  mediachat:
+    description: Activate or desactivate media chat.
+  partnerchat:
+    description: Activate or desactivate partner chat.
